@@ -1,0 +1,9 @@
+.api h1{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.api text{
+    padding: 5px;
+    display: flex;
+}

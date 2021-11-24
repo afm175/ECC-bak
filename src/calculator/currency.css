@@ -1,0 +1,22 @@
+:root{
+  --primary : #d81e5b;
+  --secondary : #8c38ff;
+  --dark: #131a26;
+  --light: #eee;
+}
+
+body {
+  background-color: #161616;
+  color: #ddd;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h2 {
+  color: #eef;
+  text-align: center;
+  padding-bottom: 30px;
+}

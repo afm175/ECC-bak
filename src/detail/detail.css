@@ -1,0 +1,32 @@
+:root {
+    --primary: #d81e5b;
+    --secondary: #8c38ff;
+    --dark: #131a26;
+    --light: #eee;
+}
+
+.listbox {
+    width: 100%;
+    max-width: 200px;
+    background-color: var(--dark);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0px 2px 64px rgba(0, 0, 0, 0.2);
+    padding: 14px 15px;
+    margin-bottom: 10px;
+    color: var(--light);
+}
+
+.basebox {
+    width: 100%;
+    max-width: 200px;
+    background-color: var(--secondary);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0px 2px 64px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: -10px;
+    text-align: center;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}

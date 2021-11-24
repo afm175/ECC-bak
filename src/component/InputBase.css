@@ -1,0 +1,33 @@
+:root{
+    --primary : #d81e5b;
+    --secondary : #8c38ff;
+    --dark: #131a26;
+    --light: #eee;
+}
+
+.input-box{
+    background: var(--secondary);
+    width: 200px;
+    margin: 0 auto 20px;
+    display: grid;
+    grid-template-columns: 50px 130px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+label,.input-text{
+    background: none;
+    border: 0;       
+}
+
+label{
+    font-weight: bolder;
+}
+
+.input-text{
+    padding: 0px;
+    color: var(--light);
+}
+.input-text::placeholder{
+    color: rgba(53, 53, 53, 0.582);
+}

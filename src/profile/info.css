@@ -1,0 +1,58 @@
+:root {
+    --primary: #d81e5b;
+    --secondary: #8c38ff;
+    --dark: #131a26;
+    --light: #eee;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    padding: 20px 50px;
+}
+
+.info text {
+    font-family: 'Helvetica', sans-serif;
+    text-align: start;
+    padding: 5px;
+}
+
+.profbox {
+    background-color: var(--dark);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0px 2px 64px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 100px 0px;
+}
+
+.content-wrap {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.icon-ECC {
+    font-size: 200px;
+    justify-self: center;
+}
+
+.button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bt {
+    background-color: var(--primary);
+    border-radius: 15px;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: var(--light);
+    padding: 15px 30px;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
