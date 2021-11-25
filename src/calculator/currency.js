@@ -13,9 +13,9 @@ function Currency() {
   const [rates, setRates] = useState([]);
 
   useEffect(() => {
-    axios.get('http://api.exchangeratesapi.io/v1/latest?access_key=ffe916a0c81efc2ee716c836572057f6')
+    axios.get('https://freecurrencyapi.net/api/v2/latest?apikey=22585820-4db1-11ec-beb0-8162cf8c1c47')
       .then(response => {
-        setRates(response.data.rates);
+        setRates(response.data.data);
       })
   }, []);
 
