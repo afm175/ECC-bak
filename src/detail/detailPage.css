@@ -1,0 +1,15 @@
+.detailpage{
+    min-height: 60vh;
+}
+
+.uang{
+    height: auto; 
+    width: 250px; 
+    max-width: 300px; 
+    max-height: 300px;
+    border-radius: 50px;
+}
+
+.desc{
+    text-align: center;
+}

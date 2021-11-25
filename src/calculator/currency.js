@@ -73,8 +73,8 @@ function Currency() {
           currency={currency2} />
       </div>
       <NavLink to="/detail" className="bt">
-          Rate Info
-        </NavLink>
+        Rate Info
+      </NavLink>
     </div>
 
   );

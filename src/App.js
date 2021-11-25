@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Switch, Route, NavLink } from "react-router-dom";
-import {HiHome } from "react-icons/hi";
+import { HiHome } from "react-icons/hi";
 import { FaInfoCircle } from "react-icons/fa";
-import { createBrowserHistory } from "history";
 
 import "./App.css";
 import Currency from "./calculator/currency";
@@ -14,38 +13,34 @@ import Home from "./home";
 import Detail from "./detail/detail";
 import DetailPage from "./detail/detailPage";
 
-const history = createBrowserHistory()
 
 function App() {
   return (
-    <Router history = {history}>
-      {/* <header>
-        <p id="titleGroup">Kelompok 30</p>
-      </header> */}
+    <Router>
       <Switch>
-      <Route path="/calculator">
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route exact path="/calculator">
           <Calculator />
         </Route>
-        <Route path="/currency">
+        <Route exact path="/currency">
           <Currency />
         </Route>
-        <Route path="/base">
+        <Route exact path="/base">
           <BaseConvertor />
         </Route>
-        <Route path="/info">
+        <Route exact path="/info">
           <Info />
         </Route>
-        <Route path="/API">
+        <Route exact path="/API">
           <ApiInfo />
         </Route>
-        <Route path="/author">
+        <Route exact path="/author">
           <Author />
         </Route>
-        <Route path="/detail">
+        <Route exact path="/detail">
           <Detail />
-        </Route>
-        <Route path="/">
-          <Home />
         </Route>
         <Route path="/detail/:detailId">
           <DetailPage />
