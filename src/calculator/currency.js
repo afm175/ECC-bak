@@ -13,7 +13,7 @@ function Currency() {
   const [rates, setRates] = useState([]);
 
   useEffect(() => {
-    axios.get('https://freecurrencyapi.net/api/v2/latest?apikey=22585820-4db1-11ec-beb0-8162cf8c1c47')
+    axios.get('https://freecurrencyapi.net/api/v2/latest?apikey=22585820-4db1-11ec-beb0-8162cf8c1c47&base_currency=EUR')
       .then(response => {
         setRates(response.data.data);
       })

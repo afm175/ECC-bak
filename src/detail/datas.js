@@ -1,4 +1,4 @@
-export const datas=[
+export const infos=[
     {
         id: 0,
         cur: 'USD',

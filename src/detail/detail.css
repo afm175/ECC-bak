@@ -16,6 +16,7 @@
     margin-bottom: 10px;
     color: var(--light);
     font-size: medium ;
+    display: flex;
 }
 
 .basebox {
